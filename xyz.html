@@ -1,0 +1,21 @@
+import React from 'react'
+
+function Contact() {
+  return (
+    <section className='contact'>
+      <div className="contact_from">
+        <div className="form_container">
+          <h1 className='contact_title'>Contact</h1>
+          <form action="">
+            <input type="text" className="txtName" placeholder='Enter Name' autoComplete='off' />
+            <input type="email" className="txtEmail" placeholder='Enter Email' autoComplete='off' />
+            <textarea name="txtArea" className="txtDesc" placeholder='Enter Text' autoComplete='off' rows="10" cols={55}></textarea>
+            <button type='submit' className="btnSubmit" value={"send"}>Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default Contact
